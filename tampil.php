@@ -87,6 +87,39 @@ echo "<br><br>";
 echo "nilai min anda adalah :  ";
 echo min ($np, $ni, $nm, $ns, $nd, $nj, $nf);
 echo "<br><br>";
+
+if ($mean >= 90) {
+    echo "rata rata nilai anda adalah A";
+    echo "<br> <br>";
+} elseif ($mean >= 75) {
+    echo "rata rata nilai anda adalah B";
+    echo "<br> <br>";
+} elseif ($mean >= 65) {
+    echo "rata rata nilai anda adalah C";
+    echo "<br> <br>";
+} elseif ($mean < 70) {
+    echo "rata rata nilai anda adalah D";
+    echo "<br> <br>";
+}
+
+echo "NAMA KELOMPOK";
+echo "<br> <br>";
+
+echo "Alya nursyifa";
+echo "<br> <br>";
+
+echo "Awittia Ananda Oktaviani";
+echo "<br> <br>";
+
+echo "Lastriantini";
+echo "<br> <br>";
+
+echo "Siti Lubna Salsabila Muslimah";
+echo "<br> <br>";
+
+echo "Rainy Nur Baeti Putri";
+echo "<br> <br>";
+
 ?>
     <input type="submit" value="kembali">
 </body>
